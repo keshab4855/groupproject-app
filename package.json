@@ -1,0 +1,27 @@
+{
+  "name": "groupproject",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "1. Introduction to this course    1. what you will build    2. what you will learn    3. who are audiences 2. Install Tools    1. Code Editor    2. Web Browser    3. VS Code Extension 3. Website Template    1. Create amazona folder    2. create template folder    3. create index.html    4. add default HTML code    5. link to style.css    6. create header, main and footer    7. style elements 4. Display Products    1. create products div    2. add product attributes    3. add link, image, name and price 5. Create React App    1. npx create-react-app frontend    2. npm start    3. Remove unused files    4. copy index.html content to App.js    5. copy style.css content to index.css    6. replace class with className 6. Create Rating and Product Component",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.8",
+    "multer": "^1.4.4",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-plugin-react": "^7.28.0",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,88 @@
+import bcrypt from "bcryptjs";
+
+const data = {
+  users: [
+    {
+      name: "Keshab",
+      email: "admin@example.com",
+      password: bcrypt.hashSync("1234", 8),
+      isAdmin: true,
+    },
+    {
+      name: "Karna",
+      email: "user@example.com",
+      password: bcrypt.hashSync("1234", 8),
+      isAdmin: false,
+    },
+  ],
+  products: [
+    {
+      name: "Travel More",
+      category: "Entertainment",
+      image: "/images/image4.jpg",
+      price: 75,
+      brand: "Samsung",
+      rating: 3.8,
+      numReviews: 14,
+      countInStock: 3,
+      description: "Speak 43 languages at the touch of a button",
+    },
+    {
+      name: "Healthier You",
+      category: "Health",
+      image: "/images/image5.jpg",
+      price: 65,
+      brand: "Sony",
+      rating: 4.9,
+      numReviews: 18,
+      countInStock: 0,
+      description: " scientifically designed to  deep, peaceful sleep fast.",
+    },
+    {
+      name: "Neck Doctor",
+      category: "Health",
+      image: "/images/image6.jpg",
+      price: 120,
+      brand: "Appple",
+      rating: 4.7,
+      numReviews: 20,
+      countInStock: 13,
+      description: "Discover A Better, Faster Way to Relieve Muscle Pain",
+    },
+    {
+      name: "Toothbrush Cleaner",
+      category: "Health",
+      image: "/images/image7.jpg",
+      price: 50,
+      brand: "Panasonic",
+      rating: 4,
+      numReviews: 33,
+      countInStock: 8,
+      description: "Kill Up To 99.9% of Germs On Your Toothbrush",
+    },
+    {
+      name: "BuzzBGone Zap",
+      category: "Health",
+      image: "/images/image8.jpg",
+      price: 40,
+      brand: "Samsung",
+      rating: 3.8,
+      numReviews: 93,
+      countInStock: 12,
+      description: "It avoids unnecessary bites  with mosquitos",
+    },
+    {
+      name: "GoDonut",
+      category: "Entertainment",
+      image: "/images/image9.jpg",
+      price: 35,
+      brand: "Panasonic",
+      rating: 4.2,
+      numReviews: 23,
+      countInStock: 0,
+      description: "world’s most portablestand for phones and tablets. ",
+    },
+  ],
+};
+
+export default data;
